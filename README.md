@@ -34,3 +34,18 @@ README 裡記了九項技術決策的取捨，還有「什麼情況我會反悔�
 2025 年 7 月去上了水球軟體學院的 AI × BDD 工作坊，
 想解決的就是「AI 產出這麼快，要怎麼確保它是對的」（入會任務的作答）。
 
+---
+
+### 技術
+
+Java 21 · Spring Boot 3.x · Spring Data JPA · PostgreSQL · MSSQL
+Docker · Kubernetes (RedHat OCP) · GitLab CI · Jenkins
+Angular · JUnit 5 · RabbitMQ
+
+
+
+---
+
+📄 完整經歷 — **[chil2020.github.io](https://chil2020.github.io/)**
+✉️ chiliteng007@gmail.com
+
