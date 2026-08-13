@@ -9,7 +9,7 @@ Java 後端工程師，5 年開發經驗，主要在做 FinTech 相關的專案�
 
 ### 目前在做的
 
-**SVRA** — 個人的語音筆記助理。對 LINE 說一句話，語音就轉成結構化的筆記。
+**[SVRA](https://github.com/chil2020/svra)** — 個人的語音筆記助理。對 LINE 說一句話，語音就轉成結構化的筆記。
 
 2024 年寫的是一支 127 行的 Python 腳本，現在用 Java 21 / Spring Boot 3.5
 重構成事件驅動架構。**目前完成 webhook 層跟資料層，佇列跟 LLM 層還在做。**
@@ -31,22 +31,19 @@ README 裡記了九項技術決策的取捨，還有「什麼情況我會反悔�
 會這樣切是因為踩過坑。之前同時接好幾個專案趕交付，大量依賴 AI，
 後來發現自己對細節的掌握度下降了。
 
-2025 年 7 月去上了水球軟體學院的 AI × BDD 工作坊，
-想解決的就是「AI 產出這麼快，要怎麼確保它是對的」（入會任務的作答）。
+2025 年 7 月去上了水球軟體學院的 AI × BDD 工作坊，想解決的就是
+「AI 產出這麼快，要怎麼確保它是對的」（[入會任務的作答](https://github.com/chil2020/AI-100x-SE-Join-Quest)）。
 
 ---
 
 ### 技術
 
-Java 21 · Spring Boot 3.x · Spring Data JPA · PostgreSQL · MSSQL
-Docker · Kubernetes (RedHat OCP) · GitLab CI · Jenkins
-Angular · JUnit 5 · RabbitMQ
-
-
+- **Java / Spring Boot** — Java 21、Spring Boot 3.x、Spring Data JPA、Hibernate、MyBatis
+- **容器與 CI/CD** — Docker、Kubernetes (RedHat OCP)、GitLab CI、Jenkins
+- **資料庫** — PostgreSQL、MSSQL；SQL 效能調校與索引優化
+- **其他** — Angular、JUnit 5、RabbitMQ
 
 ---
 
-📄 完整經歷 — **[chil2020.github.io](https://chil2020.github.io/)**
-
-✉️ chiliteng007@gmail.com
-
+完整的經歷放在 [chil2020.github.io](https://chil2020.github.io/)，
+有事情可以寄信給我：chiliteng007@gmail.com
