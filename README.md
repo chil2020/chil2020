@@ -11,10 +11,13 @@ Java 後端工程師，5 年開發經驗，主要在做 FinTech 相關的專案�
 
 **[SVRA](https://github.com/chil2020/svra)** — 個人的語音筆記助理。對 LINE 說一句話，語音就轉成結構化的筆記。
 
-2024 年寫的是一支 127 行的 Python 腳本，現在用 Java 21 / Spring Boot 3.5
-重構成事件驅動架構。**目前完成 webhook 層跟資料層，佇列跟 LLM 層還在做。**
+2024 年寫的是一支 127 行的 Python 腳本，現在用 Java 21 / Spring Boot 4
+重構成事件驅動架構。整條路都通了：**語音轉成結構化筆記後推回 LINE，
+再用一句話就能修改或刪除。語音辨識與語意抽取都跑在本機，不呼叫付費 API。**
 
-README 裡記了九項技術決策的取捨，還有「什麼情況我會反悔」。
+README 裡記了十四項技術決策的取捨，還有「什麼情況我會反悔」——
+包括踩過又修正的：加功能時把三個模組塞進同一個 package，
+被 Spring Modulith 的邊界驗證抓出環狀依賴。
 
 老實說以單人使用的規模，這套架構是過度設計的——
 重構的目的是練架構本身，不是這個功能需要它。
@@ -38,10 +41,10 @@ README 裡記了九項技術決策的取捨，還有「什麼情況我會反悔�
 
 ### 技術
 
-- **Java / Spring Boot** — Java 21、Spring Boot 3.x、Spring Data JPA、Hibernate、MyBatis
+- **Java / Spring Boot** — Java 21、Spring Boot 3.x／4、Spring Data JPA、Hibernate、MyBatis
 - **容器與 CI/CD** — Docker、Kubernetes (RedHat OCP)、GitLab CI、Jenkins
 - **資料庫** — PostgreSQL、MSSQL；SQL 效能調校與索引優化
-- **其他** — Angular、JUnit 5、RabbitMQ
+- **其他** — Angular、JUnit 5、RabbitMQ、Spring AI（地端模型）
 
 ---
 
